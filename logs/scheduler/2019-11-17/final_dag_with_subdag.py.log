@@ -1,0 +1,51 @@
+[2019-11-17 18:17:33,255] {scheduler_job.py:146} INFO - Started process (PID=2237) to work on /home/devgcp101/airflow/dags/final_dag_with_subdag.py
+[2019-11-17 18:17:33,258] {scheduler_job.py:1520} INFO - Processing file /home/devgcp101/airflow/dags/final_dag_with_subdag.py for tasks to queue
+[2019-11-17 18:17:33,259] {logging_mixin.py:95} INFO - [2019-11-17 18:17:33,259] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags/final_dag_with_subdag.py
+[2019-11-17 18:17:33,468] {logging_mixin.py:95} WARNING - /home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/pandas/compat/__init__.py:84: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+[2019-11-17 18:17:33,598] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['GDM_Sneha_SUBDAG.subdag_LOAD', 'GDM_Sneha_SUBDAG']) retrieved from /home/devgcp101/airflow/dags/final_dag_with_subdag.py
+[2019-11-17 18:17:33,639] {scheduler_job.py:1255} INFO - Processing GDM_Sneha_SUBDAG
+[2019-11-17 18:17:33,647] {scheduler_job.py:729} INFO - Examining DAG run <DagRun GDM_Sneha_SUBDAG @ 2019-11-17 18:15:39.630546+00:00: manual__2019-11-17T18:15:39.630546+00:00, externally triggered: True>
+[2019-11-17 18:17:33,654] {logging_mixin.py:95} INFO - [2019-11-17 18:17:33,654] {dagrun.py:316} INFO - Marking run <DagRun GDM_Sneha_SUBDAG @ 2019-11-17 18:15:39.630546+00:00: manual__2019-11-17T18:15:39.630546+00:00, externally triggered: True> successful
+[2019-11-17 18:17:33,660] {scheduler_job.py:429} INFO - Skipping SLA check for <DAG: GDM_Sneha_SUBDAG> because no tasks in DAG have SLAs
+[2019-11-17 18:17:33,668] {scheduler_job.py:152} INFO - Processing /home/devgcp101/airflow/dags/final_dag_with_subdag.py took 0.413 seconds
+[2019-11-17 18:18:27,326] {scheduler_job.py:146} INFO - Started process (PID=2278) to work on /home/devgcp101/airflow/dags/final_dag_with_subdag.py
+[2019-11-17 18:18:27,328] {scheduler_job.py:1520} INFO - Processing file /home/devgcp101/airflow/dags/final_dag_with_subdag.py for tasks to queue
+[2019-11-17 18:18:27,329] {logging_mixin.py:95} INFO - [2019-11-17 18:18:27,329] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags/final_dag_with_subdag.py
+[2019-11-17 18:18:27,532] {logging_mixin.py:95} WARNING - /home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/pandas/compat/__init__.py:84: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+[2019-11-17 18:18:27,661] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['GDM_Sneha_SUBDAG.subdag_LOAD', 'GDM_Sneha_SUBDAG']) retrieved from /home/devgcp101/airflow/dags/final_dag_with_subdag.py
+[2019-11-17 18:18:27,700] {scheduler_job.py:1255} INFO - Processing GDM_Sneha_SUBDAG
+[2019-11-17 18:18:27,709] {scheduler_job.py:729} INFO - Examining DAG run <DagRun GDM_Sneha_SUBDAG @ 2019-11-17 18:18:10.011592+00:00: manual__2019-11-17T18:18:10.011592+00:00, externally triggered: True>
+[2019-11-17 18:18:27,715] {logging_mixin.py:95} INFO - [2019-11-17 18:18:27,715] {dagrun.py:316} INFO - Marking run <DagRun GDM_Sneha_SUBDAG @ 2019-11-17 18:18:10.011592+00:00: manual__2019-11-17T18:18:10.011592+00:00, externally triggered: True> successful
+[2019-11-17 18:18:27,722] {scheduler_job.py:429} INFO - Skipping SLA check for <DAG: GDM_Sneha_SUBDAG> because no tasks in DAG have SLAs
+[2019-11-17 18:18:27,729] {scheduler_job.py:152} INFO - Processing /home/devgcp101/airflow/dags/final_dag_with_subdag.py took 0.404 seconds
+[2019-11-17 18:19:54,005] {scheduler_job.py:146} INFO - Started process (PID=2343) to work on /home/devgcp101/airflow/dags/final_dag_with_subdag.py
+[2019-11-17 18:19:54,008] {scheduler_job.py:1520} INFO - Processing file /home/devgcp101/airflow/dags/final_dag_with_subdag.py for tasks to queue
+[2019-11-17 18:19:54,008] {logging_mixin.py:95} INFO - [2019-11-17 18:19:54,008] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags/final_dag_with_subdag.py
+[2019-11-17 18:19:54,211] {logging_mixin.py:95} WARNING - /home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/pandas/compat/__init__.py:84: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+[2019-11-17 18:19:54,343] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['GDM_Sneha_SUBDAG.subdag_LOAD', 'GDM_Sneha_SUBDAG']) retrieved from /home/devgcp101/airflow/dags/final_dag_with_subdag.py
+[2019-11-17 18:19:54,389] {scheduler_job.py:1255} INFO - Processing GDM_Sneha_SUBDAG
+[2019-11-17 18:19:54,398] {scheduler_job.py:429} INFO - Skipping SLA check for <DAG: GDM_Sneha_SUBDAG> because no tasks in DAG have SLAs
+[2019-11-17 18:19:54,404] {scheduler_job.py:152} INFO - Processing /home/devgcp101/airflow/dags/final_dag_with_subdag.py took 0.399 seconds
+[2019-11-17 18:20:48,078] {scheduler_job.py:146} INFO - Started process (PID=2390) to work on /home/devgcp101/airflow/dags/final_dag_with_subdag.py
+[2019-11-17 18:20:48,081] {scheduler_job.py:1520} INFO - Processing file /home/devgcp101/airflow/dags/final_dag_with_subdag.py for tasks to queue
+[2019-11-17 18:20:48,082] {logging_mixin.py:95} INFO - [2019-11-17 18:20:48,082] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags/final_dag_with_subdag.py
+[2019-11-17 18:20:48,315] {logging_mixin.py:95} WARNING - /home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/pandas/compat/__init__.py:84: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+[2019-11-17 18:20:48,455] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['GDM_Sneha_SUBDAG.subdag_LOAD', 'GDM_Sneha_SUBDAG']) retrieved from /home/devgcp101/airflow/dags/final_dag_with_subdag.py
+[2019-11-17 18:20:48,495] {scheduler_job.py:1255} INFO - Processing GDM_Sneha_SUBDAG
+[2019-11-17 18:20:48,504] {scheduler_job.py:729} INFO - Examining DAG run <DagRun GDM_Sneha_SUBDAG @ 2019-11-17 18:19:57.288632+00:00: manual__2019-11-17T18:19:57.288632+00:00, externally triggered: True>
+[2019-11-17 18:20:48,511] {logging_mixin.py:95} INFO - [2019-11-17 18:20:48,510] {dagrun.py:316} INFO - Marking run <DagRun GDM_Sneha_SUBDAG @ 2019-11-17 18:19:57.288632+00:00: manual__2019-11-17T18:19:57.288632+00:00, externally triggered: True> successful
+[2019-11-17 18:20:48,518] {scheduler_job.py:429} INFO - Skipping SLA check for <DAG: GDM_Sneha_SUBDAG> because no tasks in DAG have SLAs
+[2019-11-17 18:20:48,526] {scheduler_job.py:152} INFO - Processing /home/devgcp101/airflow/dags/final_dag_with_subdag.py took 0.448 seconds
+[2019-11-17 18:21:42,151] {scheduler_job.py:146} INFO - Started process (PID=2433) to work on /home/devgcp101/airflow/dags/final_dag_with_subdag.py
+[2019-11-17 18:21:42,153] {scheduler_job.py:1520} INFO - Processing file /home/devgcp101/airflow/dags/final_dag_with_subdag.py for tasks to queue
+[2019-11-17 18:21:42,154] {logging_mixin.py:95} INFO - [2019-11-17 18:21:42,154] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags/final_dag_with_subdag.py
+[2019-11-17 18:21:42,353] {logging_mixin.py:95} WARNING - /home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/pandas/compat/__init__.py:84: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+[2019-11-17 18:21:42,485] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['GDM_Sneha_SUBDAG.subdag_LOAD', 'GDM_Sneha_SUBDAG']) retrieved from /home/devgcp101/airflow/dags/final_dag_with_subdag.py
+[2019-11-17 18:21:42,528] {scheduler_job.py:1255} INFO - Processing GDM_Sneha_SUBDAG
+[2019-11-17 18:21:42,537] {scheduler_job.py:429} INFO - Skipping SLA check for <DAG: GDM_Sneha_SUBDAG> because no tasks in DAG have SLAs
+[2019-11-17 18:21:42,544] {scheduler_job.py:152} INFO - Processing /home/devgcp101/airflow/dags/final_dag_with_subdag.py took 0.394 seconds

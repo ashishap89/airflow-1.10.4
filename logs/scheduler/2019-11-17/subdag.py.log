@@ -1,0 +1,30 @@
+[2019-11-17 18:17:31,261] {scheduler_job.py:146} INFO - Started process (PID=2236) to work on /home/devgcp101/airflow/dags/subdag.py
+[2019-11-17 18:17:31,264] {scheduler_job.py:1520} INFO - Processing file /home/devgcp101/airflow/dags/subdag.py for tasks to queue
+[2019-11-17 18:17:31,264] {logging_mixin.py:95} INFO - [2019-11-17 18:17:31,264] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags/subdag.py
+[2019-11-17 18:17:31,304] {scheduler_job.py:1534} WARNING - No viable dags retrieved from /home/devgcp101/airflow/dags/subdag.py
+[2019-11-17 18:17:31,313] {scheduler_job.py:152} INFO - Processing /home/devgcp101/airflow/dags/subdag.py took 0.052 seconds
+[2019-11-17 18:18:25,330] {scheduler_job.py:146} INFO - Started process (PID=2277) to work on /home/devgcp101/airflow/dags/subdag.py
+[2019-11-17 18:18:25,333] {scheduler_job.py:1520} INFO - Processing file /home/devgcp101/airflow/dags/subdag.py for tasks to queue
+[2019-11-17 18:18:25,333] {logging_mixin.py:95} INFO - [2019-11-17 18:18:25,333] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags/subdag.py
+[2019-11-17 18:18:25,369] {scheduler_job.py:1534} WARNING - No viable dags retrieved from /home/devgcp101/airflow/dags/subdag.py
+[2019-11-17 18:18:25,377] {scheduler_job.py:152} INFO - Processing /home/devgcp101/airflow/dags/subdag.py took 0.047 seconds
+[2019-11-17 18:19:39,982] {scheduler_job.py:146} INFO - Started process (PID=2336) to work on /home/devgcp101/airflow/dags/subdag.py
+[2019-11-17 18:19:39,985] {scheduler_job.py:1520} INFO - Processing file /home/devgcp101/airflow/dags/subdag.py for tasks to queue
+[2019-11-17 18:19:39,985] {logging_mixin.py:95} INFO - [2019-11-17 18:19:39,985] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags/subdag.py
+[2019-11-17 18:19:40,021] {scheduler_job.py:1534} WARNING - No viable dags retrieved from /home/devgcp101/airflow/dags/subdag.py
+[2019-11-17 18:19:40,027] {scheduler_job.py:152} INFO - Processing /home/devgcp101/airflow/dags/subdag.py took 0.045 seconds
+[2019-11-17 18:20:34,060] {scheduler_job.py:146} INFO - Started process (PID=2383) to work on /home/devgcp101/airflow/dags/subdag.py
+[2019-11-17 18:20:34,063] {scheduler_job.py:1520} INFO - Processing file /home/devgcp101/airflow/dags/subdag.py for tasks to queue
+[2019-11-17 18:20:34,064] {logging_mixin.py:95} INFO - [2019-11-17 18:20:34,063] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags/subdag.py
+[2019-11-17 18:20:34,100] {scheduler_job.py:1534} WARNING - No viable dags retrieved from /home/devgcp101/airflow/dags/subdag.py
+[2019-11-17 18:20:34,107] {scheduler_job.py:152} INFO - Processing /home/devgcp101/airflow/dags/subdag.py took 0.047 seconds
+[2019-11-17 18:21:28,134] {scheduler_job.py:146} INFO - Started process (PID=2424) to work on /home/devgcp101/airflow/dags/subdag.py
+[2019-11-17 18:21:28,137] {scheduler_job.py:1520} INFO - Processing file /home/devgcp101/airflow/dags/subdag.py for tasks to queue
+[2019-11-17 18:21:28,137] {logging_mixin.py:95} INFO - [2019-11-17 18:21:28,137] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags/subdag.py
+[2019-11-17 18:21:28,172] {scheduler_job.py:1534} WARNING - No viable dags retrieved from /home/devgcp101/airflow/dags/subdag.py
+[2019-11-17 18:21:28,179] {scheduler_job.py:152} INFO - Processing /home/devgcp101/airflow/dags/subdag.py took 0.045 seconds
+[2019-11-17 18:22:22,200] {scheduler_job.py:146} INFO - Started process (PID=2460) to work on /home/devgcp101/airflow/dags/subdag.py
+[2019-11-17 18:22:22,203] {scheduler_job.py:1520} INFO - Processing file /home/devgcp101/airflow/dags/subdag.py for tasks to queue
+[2019-11-17 18:22:22,204] {logging_mixin.py:95} INFO - [2019-11-17 18:22:22,204] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags/subdag.py
+[2019-11-17 18:22:22,243] {scheduler_job.py:1534} WARNING - No viable dags retrieved from /home/devgcp101/airflow/dags/subdag.py
+[2019-11-17 18:22:22,251] {scheduler_job.py:152} INFO - Processing /home/devgcp101/airflow/dags/subdag.py took 0.051 seconds

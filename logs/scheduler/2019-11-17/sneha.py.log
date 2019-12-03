@@ -1,0 +1,35 @@
+[2019-11-17 18:17:17,232] {scheduler_job.py:146} INFO - Started process (PID=2228) to work on /home/devgcp101/airflow/dags/sneha.py
+[2019-11-17 18:17:17,234] {scheduler_job.py:1520} INFO - Processing file /home/devgcp101/airflow/dags/sneha.py for tasks to queue
+[2019-11-17 18:17:17,235] {logging_mixin.py:95} INFO - [2019-11-17 18:17:17,235] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags/sneha.py
+[2019-11-17 18:17:17,566] {logging_mixin.py:95} WARNING - /home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/pandas/compat/__init__.py:84: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+[2019-11-17 18:17:17,745] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['GDM_Sneha']) retrieved from /home/devgcp101/airflow/dags/sneha.py
+[2019-11-17 18:17:17,767] {scheduler_job.py:152} INFO - Processing /home/devgcp101/airflow/dags/sneha.py took 0.535 seconds
+[2019-11-17 18:18:11,307] {scheduler_job.py:146} INFO - Started process (PID=2270) to work on /home/devgcp101/airflow/dags/sneha.py
+[2019-11-17 18:18:11,310] {scheduler_job.py:1520} INFO - Processing file /home/devgcp101/airflow/dags/sneha.py for tasks to queue
+[2019-11-17 18:18:11,311] {logging_mixin.py:95} INFO - [2019-11-17 18:18:11,311] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags/sneha.py
+[2019-11-17 18:18:11,526] {logging_mixin.py:95} WARNING - /home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/pandas/compat/__init__.py:84: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+[2019-11-17 18:18:11,698] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['GDM_Sneha']) retrieved from /home/devgcp101/airflow/dags/sneha.py
+[2019-11-17 18:18:11,720] {scheduler_job.py:152} INFO - Processing /home/devgcp101/airflow/dags/sneha.py took 0.412 seconds
+[2019-11-17 18:20:04,027] {scheduler_job.py:146} INFO - Started process (PID=2349) to work on /home/devgcp101/airflow/dags/sneha.py
+[2019-11-17 18:20:04,030] {scheduler_job.py:1520} INFO - Processing file /home/devgcp101/airflow/dags/sneha.py for tasks to queue
+[2019-11-17 18:20:04,030] {logging_mixin.py:95} INFO - [2019-11-17 18:20:04,030] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags/sneha.py
+[2019-11-17 18:20:04,227] {logging_mixin.py:95} WARNING - /home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/pandas/compat/__init__.py:84: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+[2019-11-17 18:20:04,405] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['GDM_Sneha']) retrieved from /home/devgcp101/airflow/dags/sneha.py
+[2019-11-17 18:20:04,428] {scheduler_job.py:152} INFO - Processing /home/devgcp101/airflow/dags/sneha.py took 0.401 seconds
+[2019-11-17 18:20:58,090] {scheduler_job.py:146} INFO - Started process (PID=2395) to work on /home/devgcp101/airflow/dags/sneha.py
+[2019-11-17 18:20:58,093] {scheduler_job.py:1520} INFO - Processing file /home/devgcp101/airflow/dags/sneha.py for tasks to queue
+[2019-11-17 18:20:58,094] {logging_mixin.py:95} INFO - [2019-11-17 18:20:58,094] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags/sneha.py
+[2019-11-17 18:20:58,326] {logging_mixin.py:95} WARNING - /home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/pandas/compat/__init__.py:84: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+[2019-11-17 18:20:58,505] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['GDM_Sneha']) retrieved from /home/devgcp101/airflow/dags/sneha.py
+[2019-11-17 18:20:58,530] {scheduler_job.py:152} INFO - Processing /home/devgcp101/airflow/dags/sneha.py took 0.440 seconds
+[2019-11-17 18:21:52,164] {scheduler_job.py:146} INFO - Started process (PID=2438) to work on /home/devgcp101/airflow/dags/sneha.py
+[2019-11-17 18:21:52,167] {scheduler_job.py:1520} INFO - Processing file /home/devgcp101/airflow/dags/sneha.py for tasks to queue
+[2019-11-17 18:21:52,167] {logging_mixin.py:95} INFO - [2019-11-17 18:21:52,167] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags/sneha.py
+[2019-11-17 18:21:52,401] {logging_mixin.py:95} WARNING - /home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/pandas/compat/__init__.py:84: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+[2019-11-17 18:21:52,577] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['GDM_Sneha']) retrieved from /home/devgcp101/airflow/dags/sneha.py
+[2019-11-17 18:21:52,601] {scheduler_job.py:152} INFO - Processing /home/devgcp101/airflow/dags/sneha.py took 0.437 seconds

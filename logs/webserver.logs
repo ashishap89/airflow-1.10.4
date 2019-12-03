@@ -1,0 +1,68 @@
+[2019-09-05 05:24:30,560] {__init__.py:51} INFO - Using executor SequentialExecutor
+usage: airflow [-h]
+               {backfill,list_dag_runs,list_tasks,clear,pause,unpause,trigger_dag,delete_dag,pool,variables,kerberos,render,run,initdb,list_dags,dag_state,task_failed_deps,task_state,serve_logs,test,webserver,resetdb,upgradedb,scheduler,worker,flower,version,connections,create_user,delete_user,list_users,sync_perm,next_execution,rotate_fernet_key}
+               ...
+airflow: error: unrecognized arguments: AIRFLOW_GPL_UNIDECODE=yes
+[2019-10-15 13:52:32,467] {__init__.py:51} INFO - Using executor SequentialExecutor
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+[2019-10-15 13:52:33,026] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/pandas/compat/__init__.py:84: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+Running the Gunicorn Server with:
+Workers: 4 sync
+Host: 0.0.0.0:8080
+Timeout: 120
+Logfiles: - -
+=================================================================            
+[2019-10-15 13:52:34 +0000] [1422] [INFO] Starting gunicorn 19.9.0
+
+Error: Already running on PID 1395 (or pid file '/home/devgcp101/airflow/airflow-webserver.pid' is stale)
+
+[2019-10-15 13:54:33,777] {cli.py:832} ERROR - No response from gunicorn master within 120 seconds
+[2019-10-15 13:54:33,777] {cli.py:833} ERROR - Shutting down webserver
+[2019-10-15 13:55:14,891] {__init__.py:51} INFO - Using executor SequentialExecutor
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+[2019-10-15 13:55:15,859] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/pandas/compat/__init__.py:84: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+Running the Gunicorn Server with:
+Workers: 4 sync
+Host: 0.0.0.0:8080
+Timeout: 120
+Logfiles: - -
+=================================================================            
+[2019-10-15 13:55:18 +0000] [1542] [INFO] Starting gunicorn 19.9.0
+
+Error: Already running on PID 1395 (or pid file '/home/devgcp101/airflow/airflow-webserver.pid' is stale)
+
+[2019-10-15 13:57:17,057] {cli.py:832} ERROR - No response from gunicorn master within 120 seconds
+[2019-10-15 13:57:17,057] {cli.py:833} ERROR - Shutting down webserver
+[2019-10-16 11:40:50,534] {__init__.py:51} INFO - Using executor SequentialExecutor
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+[2019-10-16 11:40:51,068] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/pandas/compat/__init__.py:84: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+Running the Gunicorn Server with:
+Workers: 4 sync
+Host: 0.0.0.0:8080
+Timeout: 120
+Logfiles: - -
+=================================================================            
+[2019-10-16 11:40:52 +0000] [2010] [INFO] Starting gunicorn 19.9.0
+
+Error: Already running on PID 1380 (or pid file '/home/devgcp101/airflow/airflow-webserver.pid' is stale)
+
+[2019-10-16 11:42:51,841] {cli.py:832} ERROR - No response from gunicorn master within 120 seconds
+[2019-10-16 11:42:51,842] {cli.py:833} ERROR - Shutting down webserver

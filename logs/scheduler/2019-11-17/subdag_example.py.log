@@ -1,0 +1,30 @@
+[2019-11-17 18:17:25,253] {scheduler_job.py:146} INFO - Started process (PID=2233) to work on /home/devgcp101/airflow/dags/subdag_example.py
+[2019-11-17 18:17:25,257] {scheduler_job.py:1520} INFO - Processing file /home/devgcp101/airflow/dags/subdag_example.py for tasks to queue
+[2019-11-17 18:17:25,257] {logging_mixin.py:95} INFO - [2019-11-17 18:17:25,257] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags/subdag_example.py
+[2019-11-17 18:17:25,279] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['Ashish_example_subdag1.section-1', 'Ashish_example_subdag1.section-2', 'Ashish_example_subdag1']) retrieved from /home/devgcp101/airflow/dags/subdag_example.py
+[2019-11-17 18:17:25,332] {scheduler_job.py:152} INFO - Processing /home/devgcp101/airflow/dags/subdag_example.py took 0.079 seconds
+[2019-11-17 18:18:19,322] {scheduler_job.py:146} INFO - Started process (PID=2274) to work on /home/devgcp101/airflow/dags/subdag_example.py
+[2019-11-17 18:18:19,325] {scheduler_job.py:1520} INFO - Processing file /home/devgcp101/airflow/dags/subdag_example.py for tasks to queue
+[2019-11-17 18:18:19,325] {logging_mixin.py:95} INFO - [2019-11-17 18:18:19,325] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags/subdag_example.py
+[2019-11-17 18:18:19,351] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['Ashish_example_subdag1.section-1', 'Ashish_example_subdag1.section-2', 'Ashish_example_subdag1']) retrieved from /home/devgcp101/airflow/dags/subdag_example.py
+[2019-11-17 18:18:19,415] {scheduler_job.py:152} INFO - Processing /home/devgcp101/airflow/dags/subdag_example.py took 0.093 seconds
+[2019-11-17 18:19:25,989] {scheduler_job.py:146} INFO - Started process (PID=2329) to work on /home/devgcp101/airflow/dags/subdag_example.py
+[2019-11-17 18:19:25,992] {scheduler_job.py:1520} INFO - Processing file /home/devgcp101/airflow/dags/subdag_example.py for tasks to queue
+[2019-11-17 18:19:25,992] {logging_mixin.py:95} INFO - [2019-11-17 18:19:25,992] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags/subdag_example.py
+[2019-11-17 18:19:26,012] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['Ashish_example_subdag1.section-1', 'Ashish_example_subdag1.section-2', 'Ashish_example_subdag1']) retrieved from /home/devgcp101/airflow/dags/subdag_example.py
+[2019-11-17 18:19:26,065] {scheduler_job.py:152} INFO - Processing /home/devgcp101/airflow/dags/subdag_example.py took 0.077 seconds
+[2019-11-17 18:20:20,054] {scheduler_job.py:146} INFO - Started process (PID=2375) to work on /home/devgcp101/airflow/dags/subdag_example.py
+[2019-11-17 18:20:20,057] {scheduler_job.py:1520} INFO - Processing file /home/devgcp101/airflow/dags/subdag_example.py for tasks to queue
+[2019-11-17 18:20:20,057] {logging_mixin.py:95} INFO - [2019-11-17 18:20:20,057] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags/subdag_example.py
+[2019-11-17 18:20:20,079] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['Ashish_example_subdag1.section-1', 'Ashish_example_subdag1.section-2', 'Ashish_example_subdag1']) retrieved from /home/devgcp101/airflow/dags/subdag_example.py
+[2019-11-17 18:20:20,134] {scheduler_job.py:152} INFO - Processing /home/devgcp101/airflow/dags/subdag_example.py took 0.080 seconds
+[2019-11-17 18:21:14,123] {scheduler_job.py:146} INFO - Started process (PID=2404) to work on /home/devgcp101/airflow/dags/subdag_example.py
+[2019-11-17 18:21:14,126] {scheduler_job.py:1520} INFO - Processing file /home/devgcp101/airflow/dags/subdag_example.py for tasks to queue
+[2019-11-17 18:21:14,126] {logging_mixin.py:95} INFO - [2019-11-17 18:21:14,126] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags/subdag_example.py
+[2019-11-17 18:21:14,147] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['Ashish_example_subdag1.section-1', 'Ashish_example_subdag1.section-2', 'Ashish_example_subdag1']) retrieved from /home/devgcp101/airflow/dags/subdag_example.py
+[2019-11-17 18:21:14,200] {scheduler_job.py:152} INFO - Processing /home/devgcp101/airflow/dags/subdag_example.py took 0.077 seconds
+[2019-11-17 18:22:08,188] {scheduler_job.py:146} INFO - Started process (PID=2453) to work on /home/devgcp101/airflow/dags/subdag_example.py
+[2019-11-17 18:22:08,191] {scheduler_job.py:1520} INFO - Processing file /home/devgcp101/airflow/dags/subdag_example.py for tasks to queue
+[2019-11-17 18:22:08,192] {logging_mixin.py:95} INFO - [2019-11-17 18:22:08,191] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags/subdag_example.py
+[2019-11-17 18:22:08,212] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['Ashish_example_subdag1.section-1', 'Ashish_example_subdag1.section-2', 'Ashish_example_subdag1']) retrieved from /home/devgcp101/airflow/dags/subdag_example.py
+[2019-11-17 18:22:08,597] {scheduler_job.py:152} INFO - Processing /home/devgcp101/airflow/dags/subdag_example.py took 0.408 seconds

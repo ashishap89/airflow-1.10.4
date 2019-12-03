@@ -1,0 +1,440 @@
+[2019-09-05 06:50:46,962] {dag_processing.py:806} INFO - Processing files using up to 1 processes at a time 
+[2019-09-05 06:50:46,963] {dag_processing.py:807} INFO - Process each file at most once every 0 seconds
+[2019-09-05 06:50:46,963] {dag_processing.py:809} INFO - Checking for new files in /home/devgcp101/airflow/dags every 300 seconds
+[2019-09-05 06:50:47,078] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                    PID    Runtime    Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------------  -------------------
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/tutorial.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py                                               0.10s           2019-09-05T06:50:47
+================================================================================
+[2019-09-05 06:51:17,098] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                    PID    Runtime    Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------------  -------------------
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/tutorial.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/test_utils.py                                                 0.10s           2019-09-05T06:50:53
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                       0.10s           2019-09-05T06:50:55
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                    0.10s           2019-09-05T06:50:57
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py                                    0.10s           2019-09-05T06:51:01
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py                                      0.10s           2019-09-05T06:51:03
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py                                    0.10s           2019-09-05T06:51:07
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py                                           0.10s           2019-09-05T06:51:05
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py                             0.10s           2019-09-05T06:51:17
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py                                           0.10s           2019-09-05T06:51:15
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py                             0.10s           2019-09-05T06:50:49
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py                                      0.10s           2019-09-05T06:51:13
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py                                             0.10s           2019-09-05T06:50:51
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py                                    0.10s           2019-09-05T06:50:59
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py                                       0.10s           2019-09-05T06:51:11
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py                                               0.10s           2019-09-05T06:50:47
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py                                    0.11s           2019-09-05T06:51:09
+================================================================================
+[2019-09-05 06:51:42,831] {dag_processing.py:792} INFO - Exiting gracefully upon receiving signal 15
+[2019-11-17 18:16:55,201] {dag_processing.py:806} INFO - Processing files using up to 1 processes at a time 
+[2019-11-17 18:16:55,220] {dag_processing.py:807} INFO - Process each file at most once every 0 seconds
+[2019-11-17 18:16:55,220] {dag_processing.py:809} INFO - Checking for new files in /home/devgcp101/airflow/dags every 300 seconds
+[2019-11-17 18:16:55,540] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                    PID    Runtime    Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------------  -------------------
+/home/devgcp101/airflow/dags/test3_dag.py
+/home/devgcp101/airflow/dags/ashish.py
+/home/devgcp101/airflow/dags/sneha.py
+/home/devgcp101/airflow/dags/sneha_1.py
+/home/devgcp101/airflow/dags/subdag_example.py
+/home/devgcp101/airflow/dags/final_dag_with_subdag.py
+/home/devgcp101/airflow/dags/subdag.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/tutorial.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py                                        0.31s           2019-11-17T18:16:55
+================================================================================
+[2019-11-17 18:17:27,459] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                    PID    Runtime    Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------------  -------------------
+/home/devgcp101/airflow/dags/ashish.py
+/home/devgcp101/airflow/dags/final_dag_with_subdag.py
+/home/devgcp101/airflow/dags/subdag.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py                                    0.10s           2019-11-17T18:17:07
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py                             0.10s           2019-11-17T18:17:01
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/tutorial.py                                                   0.10s           2019-11-17T18:17:19
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py                                 0.10s           2019-11-17T18:17:15
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py                             0.10s           2019-11-17T18:16:59
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py                                           0.10s           2019-11-17T18:17:05
+/home/devgcp101/airflow/dags/subdag_example.py                                                                                                                 0.10s           2019-11-17T18:17:25
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                    0.10s           2019-11-17T18:17:13
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py                                           0.10s           2019-11-17T18:17:09
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py                                      0.10s           2019-11-17T18:17:11
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py                                             0.10s           2019-11-17T18:17:21
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py                                               0.21s           2019-11-17T18:17:27
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py                                    0.21s           2019-11-17T18:17:23
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py                                        0.31s           2019-11-17T18:16:55
+/home/devgcp101/airflow/dags/sneha_1.py                                                                                                                        0.53s           2019-11-17T18:16:57
+/home/devgcp101/airflow/dags/test3_dag.py                                                                                                                      0.53s           2019-11-17T18:17:03
+/home/devgcp101/airflow/dags/sneha.py                                                                                                                          0.62s           2019-11-17T18:17:17
+================================================================================
+[2019-11-17 18:17:57,822] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                    PID    Runtime    Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------------  -------------------
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py                                    0.10s           2019-11-17T18:17:07
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                       0.10s           2019-11-17T18:17:37
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py                             0.10s           2019-11-17T18:17:55
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py                                    0.10s           2019-11-17T18:17:39
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                           0.10s           2019-11-17T18:17:41
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/tutorial.py                                                   0.10s           2019-11-17T18:17:19
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py                                 0.10s           2019-11-17T18:17:15
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py                                           0.10s           2019-11-17T18:17:05
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py                                        0.10s           2019-11-17T18:17:49
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py                                       0.10s           2019-11-17T18:17:29
+/home/devgcp101/airflow/dags/subdag_example.py                                                                                                                 0.10s           2019-11-17T18:17:25
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                    0.10s           2019-11-17T18:17:13
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py                                           0.10s           2019-11-17T18:17:09
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py                                    0.10s           2019-11-17T18:17:43
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/test_utils.py                                                 0.10s           2019-11-17T18:17:45
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py                                      0.10s           2019-11-17T18:17:11
+/home/devgcp101/airflow/dags/subdag.py                                                                                                                         0.10s           2019-11-17T18:17:31
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py                                             0.10s           2019-11-17T18:17:21
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py                                      0.11s           2019-11-17T18:17:35
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py                             0.21s           2019-11-17T18:17:53
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py                                               0.21s           2019-11-17T18:17:27
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py                                    0.21s           2019-11-17T18:17:23
+/home/devgcp101/airflow/dags/ashish.py                                                                                                                         0.42s           2019-11-17T18:17:47
+/home/devgcp101/airflow/dags/final_dag_with_subdag.py                                                                                                          0.43s           2019-11-17T18:17:33
+/home/devgcp101/airflow/dags/sneha_1.py                                                                                                                        0.53s           2019-11-17T18:17:51
+/home/devgcp101/airflow/dags/test3_dag.py                                                                                                                      0.53s           2019-11-17T18:17:57
+/home/devgcp101/airflow/dags/sneha.py                                                                                                                          0.62s           2019-11-17T18:17:17
+================================================================================
+[2019-11-17 18:18:29,553] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                    PID    Runtime    Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------------  -------------------
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                       0.10s           2019-11-17T18:17:37
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py                             0.10s           2019-11-17T18:17:55
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py                                 0.10s           2019-11-17T18:18:09
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py                                    0.10s           2019-11-17T18:17:39
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                    0.10s           2019-11-17T18:18:07
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                           0.10s           2019-11-17T18:17:41
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py                                           0.10s           2019-11-17T18:18:03
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/tutorial.py                                                   0.10s           2019-11-17T18:18:13
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py                                               0.10s           2019-11-17T18:18:21
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py                                             0.10s           2019-11-17T18:18:15
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py                                      0.10s           2019-11-17T18:18:05
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py                                    0.10s           2019-11-17T18:18:17
+/home/devgcp101/airflow/dags/subdag.py                                                                                                                         0.10s           2019-11-17T18:18:25
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py                                    0.10s           2019-11-17T18:18:01
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py                                        0.10s           2019-11-17T18:17:49
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py                                    0.10s           2019-11-17T18:17:43
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py                                       0.10s           2019-11-17T18:18:23
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/test_utils.py                                                 0.10s           2019-11-17T18:17:45
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py                                           0.10s           2019-11-17T18:17:59
+/home/devgcp101/airflow/dags/subdag_example.py                                                                                                                 0.11s           2019-11-17T18:18:19
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py                                      0.21s           2019-11-17T18:18:29
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py                             0.21s           2019-11-17T18:17:53
+/home/devgcp101/airflow/dags/ashish.py                                                                                                                         0.42s           2019-11-17T18:17:47
+/home/devgcp101/airflow/dags/sneha.py                                                                                                                          0.43s           2019-11-17T18:18:11
+/home/devgcp101/airflow/dags/final_dag_with_subdag.py                                                                                                          0.43s           2019-11-17T18:18:27
+/home/devgcp101/airflow/dags/sneha_1.py                                                                                                                        0.53s           2019-11-17T18:17:51
+/home/devgcp101/airflow/dags/test3_dag.py                                                                                                                      0.53s           2019-11-17T18:17:57
+================================================================================
+[2019-11-17 18:19:01,491] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                    PID    Runtime    Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------------  -------------------
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py                                 0.10s           2019-11-17T18:18:09
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/tutorial.py                                                   0.10s           2019-11-17T18:18:13
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py                                               0.10s           2019-11-17T18:18:21
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py                                             0.10s           2019-11-17T18:18:15
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py                                    0.10s           2019-11-17T18:18:17
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py                                           0.10s           2019-11-17T18:18:57
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py                                      0.10s           2019-11-17T18:18:59
+/home/devgcp101/airflow/dags/subdag.py                                                                                                                         0.10s           2019-11-17T18:18:25
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py                                    0.10s           2019-11-17T18:18:55
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py                                        0.10s           2019-11-17T18:18:43
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py                             0.10s           2019-11-17T18:18:47
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py                                       0.10s           2019-11-17T18:18:23
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py                                    0.10s           2019-11-17T18:18:37
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py                                    0.10s           2019-11-17T18:18:33
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                    0.10s           2019-11-17T18:19:01
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/test_utils.py                                                 0.10s           2019-11-17T18:18:39
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py                                           0.10s           2019-11-17T18:18:53
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py                             0.10s           2019-11-17T18:18:49
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                           0.10s           2019-11-17T18:18:35
+/home/devgcp101/airflow/dags/subdag_example.py                                                                                                                 0.11s           2019-11-17T18:18:19
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py                                      0.21s           2019-11-17T18:18:29
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                       0.21s           2019-11-17T18:18:31
+/home/devgcp101/airflow/dags/sneha_1.py                                                                                                                        0.43s           2019-11-17T18:18:45
+/home/devgcp101/airflow/dags/sneha.py                                                                                                                          0.43s           2019-11-17T18:18:11
+/home/devgcp101/airflow/dags/final_dag_with_subdag.py                                                                                                          0.43s           2019-11-17T18:18:27
+/home/devgcp101/airflow/dags/test3_dag.py                                                                                                                      0.52s           2019-11-17T18:18:51
+/home/devgcp101/airflow/dags/ashish.py                                                                                                                         0.53s           2019-11-17T18:18:41
+================================================================================
+[2019-11-17 18:19:03,642] {dag_processing.py:792} INFO - Exiting gracefully upon receiving signal 15
+[2019-11-17 18:19:25,976] {dag_processing.py:806} INFO - Processing files using up to 1 processes at a time 
+[2019-11-17 18:19:25,976] {dag_processing.py:807} INFO - Process each file at most once every 0 seconds
+[2019-11-17 18:19:25,976] {dag_processing.py:809} INFO - Checking for new files in /home/devgcp101/airflow/dags every 300 seconds
+[2019-11-17 18:19:26,094] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                    PID    Runtime    Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------------  -------------------
+/home/devgcp101/airflow/dags/test3_dag.py
+/home/devgcp101/airflow/dags/ashish.py
+/home/devgcp101/airflow/dags/sneha.py
+/home/devgcp101/airflow/dags/sneha_1.py
+/home/devgcp101/airflow/dags/final_dag_with_subdag.py
+/home/devgcp101/airflow/dags/subdag.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/tutorial.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py
+/home/devgcp101/airflow/dags/subdag_example.py                                                                                                                 0.10s           2019-11-17T18:19:26
+================================================================================
+[2019-11-17 18:19:56,234] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                    PID    Runtime    Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------------  -------------------
+/home/devgcp101/airflow/dags/ashish.py
+/home/devgcp101/airflow/dags/sneha.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/test_utils.py                                                 0.10s           2019-11-17T18:19:30
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py                                    0.10s           2019-11-17T18:19:28
+/home/devgcp101/airflow/dags/subdag.py                                                                                                                         0.10s           2019-11-17T18:19:40
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py                             0.10s           2019-11-17T18:19:52
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py                                      0.10s           2019-11-17T18:19:48
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py                                           0.10s           2019-11-17T18:19:36
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/tutorial.py                                                   0.10s           2019-11-17T18:19:42
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py                                       0.10s           2019-11-17T18:19:50
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py                                             0.10s           2019-11-17T18:19:46
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py                                    0.10s           2019-11-17T18:19:38
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py                                      0.10s           2019-11-17T18:19:44
+/home/devgcp101/airflow/dags/subdag_example.py                                                                                                                 0.10s           2019-11-17T18:19:26
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                           0.21s           2019-11-17T18:19:56
+/home/devgcp101/airflow/dags/final_dag_with_subdag.py                                                                                                          0.42s           2019-11-17T18:19:54
+/home/devgcp101/airflow/dags/test3_dag.py                                                                                                                      0.51s           2019-11-17T18:19:32
+/home/devgcp101/airflow/dags/sneha_1.py                                                                                                                        0.52s           2019-11-17T18:19:34
+================================================================================
+[2019-11-17 18:20:26,703] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                    PID    Runtime    Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------------  -------------------
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py                                 0.10s           2019-11-17T18:20:12
+/home/devgcp101/airflow/dags/subdag.py                                                                                                                         0.10s           2019-11-17T18:19:40
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py                             0.10s           2019-11-17T18:19:52
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py                                      0.10s           2019-11-17T18:19:48
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py                             0.10s           2019-11-17T18:20:10
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py                                        0.10s           2019-11-17T18:20:02
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                       0.10s           2019-11-17T18:20:06
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py                                    0.10s           2019-11-17T18:20:16
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py                                           0.10s           2019-11-17T18:19:36
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/tutorial.py                                                   0.10s           2019-11-17T18:19:42
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py                                       0.10s           2019-11-17T18:19:50
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py                                             0.10s           2019-11-17T18:19:46
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py                                               0.10s           2019-11-17T18:20:08
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py                                    0.10s           2019-11-17T18:20:22
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py                                    0.10s           2019-11-17T18:19:38
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/test_utils.py                                                 0.10s           2019-11-17T18:20:24
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                    0.10s           2019-11-17T18:20:14
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py                                           0.10s           2019-11-17T18:20:18
+/home/devgcp101/airflow/dags/subdag_example.py                                                                                                                 0.10s           2019-11-17T18:20:20
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py                                      0.10s           2019-11-17T18:19:44
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py                                    0.10s           2019-11-17T18:19:58
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                           0.21s           2019-11-17T18:19:56
+/home/devgcp101/airflow/dags/final_dag_with_subdag.py                                                                                                          0.42s           2019-11-17T18:19:54
+/home/devgcp101/airflow/dags/ashish.py                                                                                                                         0.43s           2019-11-17T18:20:00
+/home/devgcp101/airflow/dags/sneha.py                                                                                                                          0.43s           2019-11-17T18:20:04
+/home/devgcp101/airflow/dags/sneha_1.py                                                                                                                        0.52s           2019-11-17T18:19:34
+/home/devgcp101/airflow/dags/test3_dag.py                                                                                                                      0.64s           2019-11-17T18:20:26
+================================================================================
+[2019-11-17 18:20:58,625] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                    PID    Runtime    Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------------  -------------------
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py                                 0.10s           2019-11-17T18:20:12
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py                             0.10s           2019-11-17T18:20:46
+/home/devgcp101/airflow/dags/subdag.py                                                                                                                         0.10s           2019-11-17T18:20:34
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py                             0.10s           2019-11-17T18:20:10
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py                                       0.10s           2019-11-17T18:20:44
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                       0.10s           2019-11-17T18:20:06
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py                                    0.10s           2019-11-17T18:20:16
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py                                      0.10s           2019-11-17T18:20:42
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                           0.10s           2019-11-17T18:20:50
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py                                               0.10s           2019-11-17T18:20:08
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py                                    0.10s           2019-11-17T18:20:32
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py                                    0.10s           2019-11-17T18:20:22
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/test_utils.py                                                 0.10s           2019-11-17T18:20:24
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                    0.10s           2019-11-17T18:20:14
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py                                           0.10s           2019-11-17T18:20:18
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/tutorial.py                                                   0.10s           2019-11-17T18:20:36
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py                                           0.10s           2019-11-17T18:20:30
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py                                    0.10s           2019-11-17T18:20:52
+/home/devgcp101/airflow/dags/subdag_example.py                                                                                                                 0.10s           2019-11-17T18:20:20
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py                                             0.10s           2019-11-17T18:20:40
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py                                        0.10s           2019-11-17T18:20:56
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py                                      0.10s           2019-11-17T18:20:38
+/home/devgcp101/airflow/dags/ashish.py                                                                                                                         0.43s           2019-11-17T18:20:54
+/home/devgcp101/airflow/dags/final_dag_with_subdag.py                                                                                                          0.52s           2019-11-17T18:20:48
+/home/devgcp101/airflow/dags/sneha.py                                                                                                                          0.53s           2019-11-17T18:20:58
+/home/devgcp101/airflow/dags/test3_dag.py                                                                                                                      0.64s           2019-11-17T18:20:26
+/home/devgcp101/airflow/dags/sneha_1.py                                                                                                                        0.67s           2019-11-17T18:20:28
+================================================================================
+[2019-11-17 18:21:30,240] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                    PID    Runtime    Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------------  -------------------
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py                                    0.10s           2019-11-17T18:21:16
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                    0.10s           2019-11-17T18:21:08
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/test_utils.py                                                 0.10s           2019-11-17T18:21:18
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py                             0.10s           2019-11-17T18:20:46
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py                                               0.10s           2019-11-17T18:21:02
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py                                       0.10s           2019-11-17T18:20:44
+/home/devgcp101/airflow/dags/subdag.py                                                                                                                         0.10s           2019-11-17T18:21:28
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py                                           0.10s           2019-11-17T18:21:24
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py                                 0.10s           2019-11-17T18:21:06
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py                                      0.10s           2019-11-17T18:20:42
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                       0.10s           2019-11-17T18:21:00
+/home/devgcp101/airflow/dags/subdag_example.py                                                                                                                 0.10s           2019-11-17T18:21:14
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py                                           0.10s           2019-11-17T18:21:12
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                           0.10s           2019-11-17T18:20:50
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/tutorial.py                                                   0.10s           2019-11-17T18:21:30
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py                             0.10s           2019-11-17T18:21:04
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py                                    0.10s           2019-11-17T18:20:52
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py                                             0.10s           2019-11-17T18:20:40
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py                                    0.10s           2019-11-17T18:21:26
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py                                        0.10s           2019-11-17T18:20:56
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py                                    0.10s           2019-11-17T18:21:10
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py                                      0.10s           2019-11-17T18:20:38
+/home/devgcp101/airflow/dags/ashish.py                                                                                                                         0.43s           2019-11-17T18:20:54
+/home/devgcp101/airflow/dags/sneha_1.py                                                                                                                        0.43s           2019-11-17T18:21:22
+/home/devgcp101/airflow/dags/final_dag_with_subdag.py                                                                                                          0.52s           2019-11-17T18:20:48
+/home/devgcp101/airflow/dags/test3_dag.py                                                                                                                      0.53s           2019-11-17T18:21:20
+/home/devgcp101/airflow/dags/sneha.py                                                                                                                          0.53s           2019-11-17T18:20:58
+================================================================================
+[2019-11-17 18:22:00,276] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                    PID    Runtime    Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------------  -------------------
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py                                    0.10s           2019-11-17T18:21:16
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                    0.10s           2019-11-17T18:21:08
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/test_utils.py                                                 0.10s           2019-11-17T18:21:18
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py                                      0.10s           2019-11-17T18:21:36
+/home/devgcp101/airflow/dags/subdag.py                                                                                                                         0.10s           2019-11-17T18:21:28
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py                                      0.10s           2019-11-17T18:21:32
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py                                           0.10s           2019-11-17T18:21:24
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py                                    0.10s           2019-11-17T18:21:46
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py                                        0.10s           2019-11-17T18:21:50
+/home/devgcp101/airflow/dags/subdag_example.py                                                                                                                 0.10s           2019-11-17T18:21:14
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py                                           0.10s           2019-11-17T18:21:12
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/tutorial.py                                                   0.10s           2019-11-17T18:21:30
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py                             0.10s           2019-11-17T18:21:58
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                       0.10s           2019-11-17T18:21:54
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py                                 0.10s           2019-11-17T18:22:00
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py                                       0.10s           2019-11-17T18:21:38
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                           0.10s           2019-11-17T18:21:44
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py                                    0.10s           2019-11-17T18:21:26
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py                                               0.10s           2019-11-17T18:21:56
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py                             0.10s           2019-11-17T18:21:40
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py                                    0.10s           2019-11-17T18:21:10
+/home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py                                             0.11s           2019-11-17T18:21:34
+/home/devgcp101/airflow/dags/final_dag_with_subdag.py                                                                                                          0.43s           2019-11-17T18:21:42
+/home/devgcp101/airflow/dags/sneha_1.py                                                                                                                        0.43s           2019-11-17T18:21:22
+/home/devgcp101/airflow/dags/sneha.py                                                                                                                          0.52s           2019-11-17T18:21:52
+/home/devgcp101/airflow/dags/ashish.py                                                                                                                         0.52s           2019-11-17T18:21:48
+/home/devgcp101/airflow/dags/test3_dag.py                                                                                                                      0.53s           2019-11-17T18:21:20
+================================================================================
+[2019-11-17 18:22:24,996] {dag_processing.py:792} INFO - Exiting gracefully upon receiving signal 15

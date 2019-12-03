@@ -1,0 +1,35 @@
+[2019-11-17 18:17:47,271] {scheduler_job.py:146} INFO - Started process (PID=2244) to work on /home/devgcp101/airflow/dags/ashish.py
+[2019-11-17 18:17:47,274] {scheduler_job.py:1520} INFO - Processing file /home/devgcp101/airflow/dags/ashish.py for tasks to queue
+[2019-11-17 18:17:47,275] {logging_mixin.py:95} INFO - [2019-11-17 18:17:47,275] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags/ashish.py
+[2019-11-17 18:17:47,481] {logging_mixin.py:95} WARNING - /home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/pandas/compat/__init__.py:84: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+[2019-11-17 18:17:47,645] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['GDM_Ashish2']) retrieved from /home/devgcp101/airflow/dags/ashish.py
+[2019-11-17 18:17:47,667] {scheduler_job.py:152} INFO - Processing /home/devgcp101/airflow/dags/ashish.py took 0.396 seconds
+[2019-11-17 18:18:41,357] {scheduler_job.py:146} INFO - Started process (PID=2286) to work on /home/devgcp101/airflow/dags/ashish.py
+[2019-11-17 18:18:41,361] {scheduler_job.py:1520} INFO - Processing file /home/devgcp101/airflow/dags/ashish.py for tasks to queue
+[2019-11-17 18:18:41,361] {logging_mixin.py:95} INFO - [2019-11-17 18:18:41,361] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags/ashish.py
+[2019-11-17 18:18:41,604] {logging_mixin.py:95} WARNING - /home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/pandas/compat/__init__.py:84: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+[2019-11-17 18:18:41,774] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['GDM_Ashish2']) retrieved from /home/devgcp101/airflow/dags/ashish.py
+[2019-11-17 18:18:41,797] {scheduler_job.py:152} INFO - Processing /home/devgcp101/airflow/dags/ashish.py took 0.440 seconds
+[2019-11-17 18:20:00,022] {scheduler_job.py:146} INFO - Started process (PID=2347) to work on /home/devgcp101/airflow/dags/ashish.py
+[2019-11-17 18:20:00,025] {scheduler_job.py:1520} INFO - Processing file /home/devgcp101/airflow/dags/ashish.py for tasks to queue
+[2019-11-17 18:20:00,025] {logging_mixin.py:95} INFO - [2019-11-17 18:20:00,025] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags/ashish.py
+[2019-11-17 18:20:00,223] {logging_mixin.py:95} WARNING - /home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/pandas/compat/__init__.py:84: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+[2019-11-17 18:20:00,394] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['GDM_Ashish2']) retrieved from /home/devgcp101/airflow/dags/ashish.py
+[2019-11-17 18:20:00,426] {scheduler_job.py:152} INFO - Processing /home/devgcp101/airflow/dags/ashish.py took 0.404 seconds
+[2019-11-17 18:20:54,084] {scheduler_job.py:146} INFO - Started process (PID=2393) to work on /home/devgcp101/airflow/dags/ashish.py
+[2019-11-17 18:20:54,087] {scheduler_job.py:1520} INFO - Processing file /home/devgcp101/airflow/dags/ashish.py for tasks to queue
+[2019-11-17 18:20:54,088] {logging_mixin.py:95} INFO - [2019-11-17 18:20:54,088] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags/ashish.py
+[2019-11-17 18:20:54,298] {logging_mixin.py:95} WARNING - /home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/pandas/compat/__init__.py:84: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+[2019-11-17 18:20:54,463] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['GDM_Ashish2']) retrieved from /home/devgcp101/airflow/dags/ashish.py
+[2019-11-17 18:20:54,488] {scheduler_job.py:152} INFO - Processing /home/devgcp101/airflow/dags/ashish.py took 0.404 seconds
+[2019-11-17 18:21:48,159] {scheduler_job.py:146} INFO - Started process (PID=2436) to work on /home/devgcp101/airflow/dags/ashish.py
+[2019-11-17 18:21:48,162] {scheduler_job.py:1520} INFO - Processing file /home/devgcp101/airflow/dags/ashish.py for tasks to queue
+[2019-11-17 18:21:48,162] {logging_mixin.py:95} INFO - [2019-11-17 18:21:48,162] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags/ashish.py
+[2019-11-17 18:21:48,394] {logging_mixin.py:95} WARNING - /home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/pandas/compat/__init__.py:84: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+[2019-11-17 18:21:48,559] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['GDM_Ashish2']) retrieved from /home/devgcp101/airflow/dags/ashish.py
+[2019-11-17 18:21:48,582] {scheduler_job.py:152} INFO - Processing /home/devgcp101/airflow/dags/ashish.py took 0.423 seconds

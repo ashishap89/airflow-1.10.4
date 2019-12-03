@@ -1,0 +1,49 @@
+[2019-11-17 18:17:03,208] {scheduler_job.py:146} INFO - Started process (PID=2220) to work on /home/devgcp101/airflow/dags/test3_dag.py
+[2019-11-17 18:17:03,212] {scheduler_job.py:1520} INFO - Processing file /home/devgcp101/airflow/dags/test3_dag.py for tasks to queue
+[2019-11-17 18:17:03,212] {logging_mixin.py:95} INFO - [2019-11-17 18:17:03,212] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags/test3_dag.py
+[2019-11-17 18:17:03,454] {logging_mixin.py:95} WARNING - /home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/pandas/compat/__init__.py:84: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+[2019-11-17 18:17:03,644] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['final_GDM_Dynamic_DAG_demo_load']) retrieved from /home/devgcp101/airflow/dags/test3_dag.py
+[2019-11-17 18:17:03,668] {scheduler_job.py:152} INFO - Processing /home/devgcp101/airflow/dags/test3_dag.py took 0.460 seconds
+[2019-11-17 18:17:57,294] {scheduler_job.py:146} INFO - Started process (PID=2263) to work on /home/devgcp101/airflow/dags/test3_dag.py
+[2019-11-17 18:17:57,297] {scheduler_job.py:1520} INFO - Processing file /home/devgcp101/airflow/dags/test3_dag.py for tasks to queue
+[2019-11-17 18:17:57,297] {logging_mixin.py:95} INFO - [2019-11-17 18:17:57,297] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags/test3_dag.py
+[2019-11-17 18:17:57,535] {logging_mixin.py:95} WARNING - /home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/pandas/compat/__init__.py:84: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+[2019-11-17 18:17:57,715] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['final_GDM_Dynamic_DAG_demo_load']) retrieved from /home/devgcp101/airflow/dags/test3_dag.py
+[2019-11-17 18:17:57,738] {scheduler_job.py:152} INFO - Processing /home/devgcp101/airflow/dags/test3_dag.py took 0.444 seconds
+[2019-11-17 18:18:51,370] {scheduler_job.py:146} INFO - Started process (PID=2292) to work on /home/devgcp101/airflow/dags/test3_dag.py
+[2019-11-17 18:18:51,373] {scheduler_job.py:1520} INFO - Processing file /home/devgcp101/airflow/dags/test3_dag.py for tasks to queue
+[2019-11-17 18:18:51,374] {logging_mixin.py:95} INFO - [2019-11-17 18:18:51,374] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags/test3_dag.py
+[2019-11-17 18:18:51,620] {logging_mixin.py:95} WARNING - /home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/pandas/compat/__init__.py:84: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+[2019-11-17 18:18:51,804] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['final_GDM_Dynamic_DAG_demo_load']) retrieved from /home/devgcp101/airflow/dags/test3_dag.py
+[2019-11-17 18:18:51,828] {scheduler_job.py:152} INFO - Processing /home/devgcp101/airflow/dags/test3_dag.py took 0.458 seconds
+[2019-11-17 18:19:31,986] {scheduler_job.py:146} INFO - Started process (PID=2332) to work on /home/devgcp101/airflow/dags/test3_dag.py
+[2019-11-17 18:19:31,989] {scheduler_job.py:1520} INFO - Processing file /home/devgcp101/airflow/dags/test3_dag.py for tasks to queue
+[2019-11-17 18:19:31,989] {logging_mixin.py:95} INFO - [2019-11-17 18:19:31,989] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags/test3_dag.py
+[2019-11-17 18:19:32,215] {logging_mixin.py:95} WARNING - /home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/pandas/compat/__init__.py:84: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+[2019-11-17 18:19:32,397] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['final_GDM_Dynamic_DAG_demo_load']) retrieved from /home/devgcp101/airflow/dags/test3_dag.py
+[2019-11-17 18:19:32,421] {scheduler_job.py:152} INFO - Processing /home/devgcp101/airflow/dags/test3_dag.py took 0.435 seconds
+[2019-11-17 18:20:26,060] {scheduler_job.py:146} INFO - Started process (PID=2378) to work on /home/devgcp101/airflow/dags/test3_dag.py
+[2019-11-17 18:20:26,063] {scheduler_job.py:1520} INFO - Processing file /home/devgcp101/airflow/dags/test3_dag.py for tasks to queue
+[2019-11-17 18:20:26,064] {logging_mixin.py:95} INFO - [2019-11-17 18:20:26,064] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags/test3_dag.py
+[2019-11-17 18:20:26,463] {logging_mixin.py:95} WARNING - /home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/pandas/compat/__init__.py:84: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+[2019-11-17 18:20:26,638] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['final_GDM_Dynamic_DAG_demo_load']) retrieved from /home/devgcp101/airflow/dags/test3_dag.py
+[2019-11-17 18:20:26,662] {scheduler_job.py:152} INFO - Processing /home/devgcp101/airflow/dags/test3_dag.py took 0.601 seconds
+[2019-11-17 18:21:20,131] {scheduler_job.py:146} INFO - Started process (PID=2407) to work on /home/devgcp101/airflow/dags/test3_dag.py
+[2019-11-17 18:21:20,134] {scheduler_job.py:1520} INFO - Processing file /home/devgcp101/airflow/dags/test3_dag.py for tasks to queue
+[2019-11-17 18:21:20,135] {logging_mixin.py:95} INFO - [2019-11-17 18:21:20,135] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags/test3_dag.py
+[2019-11-17 18:21:20,372] {logging_mixin.py:95} WARNING - /home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/pandas/compat/__init__.py:84: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+[2019-11-17 18:21:20,555] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['final_GDM_Dynamic_DAG_demo_load']) retrieved from /home/devgcp101/airflow/dags/test3_dag.py
+[2019-11-17 18:21:20,579] {scheduler_job.py:152} INFO - Processing /home/devgcp101/airflow/dags/test3_dag.py took 0.447 seconds
+[2019-11-17 18:22:14,199] {scheduler_job.py:146} INFO - Started process (PID=2456) to work on /home/devgcp101/airflow/dags/test3_dag.py
+[2019-11-17 18:22:14,203] {scheduler_job.py:1520} INFO - Processing file /home/devgcp101/airflow/dags/test3_dag.py for tasks to queue
+[2019-11-17 18:22:14,204] {logging_mixin.py:95} INFO - [2019-11-17 18:22:14,203] {dagbag.py:90} INFO - Filling up the DagBag from /home/devgcp101/airflow/dags/test3_dag.py
+[2019-11-17 18:22:14,439] {logging_mixin.py:95} WARNING - /home/devgcp101/environments/airflow_virtualenv/lib/python3.6/site-packages/pandas/compat/__init__.py:84: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+[2019-11-17 18:22:14,616] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['final_GDM_Dynamic_DAG_demo_load']) retrieved from /home/devgcp101/airflow/dags/test3_dag.py
+[2019-11-17 18:22:14,641] {scheduler_job.py:152} INFO - Processing /home/devgcp101/airflow/dags/test3_dag.py took 0.442 seconds
